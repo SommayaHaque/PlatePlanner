@@ -14,6 +14,14 @@
 		72C64D1D24A281F600CA0165 /* PlatePlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72C64D1B24A281F600CA0165 /* PlatePlanner.xcdatamodeld */; };
 		72C64D1F24A281FA00CA0165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C64D1E24A281FA00CA0165 /* Assets.xcassets */; };
 		72C64D2224A281FA00CA0165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C64D2024A281FA00CA0165 /* LaunchScreen.storyboard */; };
+		72C64D2A24A3D05700CA0165 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C64D2924A3D05700CA0165 /* BMIViewController.swift */; };
+		72F4E41224A55F05002AD219 /* fridayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4E41124A55F05002AD219 /* fridayViewController.swift */; };
+		72F4E41924A55F15002AD219 /* thursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4E41324A55F14002AD219 /* thursViewController.swift */; };
+		72F4E41A24A55F15002AD219 /* tuesdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4E41424A55F14002AD219 /* tuesdayViewController.swift */; };
+		72F4E41B24A55F15002AD219 /* wedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4E41524A55F15002AD219 /* wedViewController.swift */; };
+		72F4E41C24A55F15002AD219 /* satViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4E41624A55F15002AD219 /* satViewController.swift */; };
+		72F4E41D24A55F15002AD219 /* sundayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4E41724A55F15002AD219 /* sundayViewController.swift */; };
+		72F4E41E24A55F15002AD219 /* mondayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4E41824A55F15002AD219 /* mondayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		72C64D1E24A281FA00CA0165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72C64D2124A281FA00CA0165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72C64D2324A281FA00CA0165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C64D2924A3D05700CA0165 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
+		72F4E41124A55F05002AD219 /* fridayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = fridayViewController.swift; path = ../../../../Downloads/weeklyplan/fridayViewController.swift; sourceTree = "<group>"; };
+		72F4E41324A55F14002AD219 /* thursViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = thursViewController.swift; path = ../../../../Downloads/weeklyplan/thursViewController.swift; sourceTree = "<group>"; };
+		72F4E41424A55F14002AD219 /* tuesdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tuesdayViewController.swift; path = ../../../../Downloads/weeklyplan/tuesdayViewController.swift; sourceTree = "<group>"; };
+		72F4E41524A55F15002AD219 /* wedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = wedViewController.swift; path = ../../../../Downloads/weeklyplan/wedViewController.swift; sourceTree = "<group>"; };
+		72F4E41624A55F15002AD219 /* satViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = satViewController.swift; path = ../../../../Downloads/weeklyplan/satViewController.swift; sourceTree = "<group>"; };
+		72F4E41724A55F15002AD219 /* sundayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = sundayViewController.swift; path = ../../../../Downloads/weeklyplan/sundayViewController.swift; sourceTree = "<group>"; };
+		72F4E41824A55F15002AD219 /* mondayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mondayViewController.swift; path = ../../../../Downloads/weeklyplan/mondayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +82,14 @@
 				72C64D2024A281FA00CA0165 /* LaunchScreen.storyboard */,
 				72C64D2324A281FA00CA0165 /* Info.plist */,
 				72C64D1B24A281F600CA0165 /* PlatePlanner.xcdatamodeld */,
+				72C64D2924A3D05700CA0165 /* BMIViewController.swift */,
+				72F4E41124A55F05002AD219 /* fridayViewController.swift */,
+				72F4E41824A55F15002AD219 /* mondayViewController.swift */,
+				72F4E41624A55F15002AD219 /* satViewController.swift */,
+				72F4E41724A55F15002AD219 /* sundayViewController.swift */,
+				72F4E41324A55F14002AD219 /* thursViewController.swift */,
+				72F4E41424A55F14002AD219 /* tuesdayViewController.swift */,
+				72F4E41524A55F15002AD219 /* wedViewController.swift */,
 			);
 			path = PlatePlanner;
 			sourceTree = "<group>";
@@ -142,8 +166,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				72C64D1724A281F600CA0165 /* ViewController.swift in Sources */,
+				72F4E41D24A55F15002AD219 /* sundayViewController.swift in Sources */,
+				72F4E41C24A55F15002AD219 /* satViewController.swift in Sources */,
 				72C64D1324A281F600CA0165 /* AppDelegate.swift in Sources */,
 				72C64D1524A281F600CA0165 /* SceneDelegate.swift in Sources */,
+				72F4E41224A55F05002AD219 /* fridayViewController.swift in Sources */,
+				72F4E41A24A55F15002AD219 /* tuesdayViewController.swift in Sources */,
+				72F4E41924A55F15002AD219 /* thursViewController.swift in Sources */,
+				72F4E41E24A55F15002AD219 /* mondayViewController.swift in Sources */,
+				72F4E41B24A55F15002AD219 /* wedViewController.swift in Sources */,
+				72C64D2A24A3D05700CA0165 /* BMIViewController.swift in Sources */,
 				72C64D1D24A281F600CA0165 /* PlatePlanner.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
